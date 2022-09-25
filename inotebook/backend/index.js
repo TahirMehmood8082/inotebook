@@ -4,6 +4,8 @@ connectToMongo();
 // We can use express as shown as below
 const app = express()
 const port = 3000
+//This line to show objs in terminal from thunderclient json 
+app.use(express.json())
 
 // app.get('/', (req, res) => {
 //   res.send('Hello Tahir!')
